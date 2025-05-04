@@ -7,7 +7,7 @@ Scale = joblib.load(".models/Scaler_Data.pkl")
 
 encoder_bmi = joblib.load(".models/encoder_bmi.pkl")
 encoder_insulin = joblib.load(".models/encoder_insulin.pkl")
-encoder_BP = joblib.load(r".models/encoder_BP.pkl")
+encoder_BP = joblib.load(".models/encoder_BP.pkl")
 
 st.title("Prediksi Risiko Penyakit Diabetes Melitus")
 st.write("Masukkan data berikut untuk memprediksi kemungkinan penyakit")
