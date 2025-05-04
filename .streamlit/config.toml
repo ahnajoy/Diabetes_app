@@ -1,0 +1,15 @@
+[theme]
+# Primary accent color for interactive elements.
+primaryColor = "#d33682"  # (boleh tetap, atau diganti juga)
+
+# Background color for the main content area (putih).
+backgroundColor = "#ffffff"
+
+# Background color used untuk sidebar dan widget lainnya (abu terang atau sama putih).
+secondaryBackgroundColor = "#f0f0f0"
+
+# Warna teks (hitam).
+textColor = "#000000"
+
+[client]
+toolbarMode = "minimal"
