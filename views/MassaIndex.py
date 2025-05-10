@@ -10,4 +10,4 @@ Mass = st.number_input("Massa Tubuh (Kg)", min_value=0.1, format="%.2f")
 if st.button("Hitung"):
     BMI = Mass / (height ** 2)
 
-    st.write(f"BMI anda adalah {BMI}")
+    st.write(f"BMI anda adalah {BMI:.4f}")
